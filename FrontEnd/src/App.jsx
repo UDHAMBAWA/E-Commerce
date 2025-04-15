@@ -8,6 +8,7 @@ import  Login  from './pages/Login';
 import  Signup  from './pages/Signup';
 import  Checkout  from './pages/Checkout';
 import Navbar from './components/Navbar';  
+import AddToFavourite from './pages/AddToFavourite.jsx';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Route path="/contact" element={<Contact />} />
       <Route path="/cart" element={<Cart />} />
       <Route path="/checkout" element={<Checkout />} />
+      <Route path="/wish" element={<AddToFavourite/>}/>
       <Route path="/signup" element={<Signup />} />
       <Route path="/login" element={<Login />} />
     </Routes>
