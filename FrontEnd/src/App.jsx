@@ -7,7 +7,7 @@ import  Cart  from './pages/Cart';
 import  Login  from './pages/Login';
 import  Signup  from './pages/Signup';
 import  Checkout  from './pages/Checkout';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';  
 
 const App = () => {
   return (
